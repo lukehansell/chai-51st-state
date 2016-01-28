@@ -1,0 +1,23 @@
+{
+  "name": "chai-51st-state",
+  "version": "1.0.0",
+  "description": "A plugin for chai to allow you to test what is bollocks and what is the dog's bollocks.",
+  "main": "chai_51st_state.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "chai",
+    "chai-plugin",
+    "assert",
+    "bollocks",
+    "true",
+    "false"
+  ],
+  "author": "Luke Hansell <luke.hansell@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
