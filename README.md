@@ -17,6 +17,8 @@ chai.use(chai51stState)
 
 it('does a test', () => {
     false.should.be.bollocks
+    false.should.be.fucking.bollocks
     true.should.be.dogs.bollocks
+    true.should.be.the.dogs.fucking.bollocks
 })
 ```

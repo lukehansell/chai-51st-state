@@ -12,4 +12,12 @@ module.exports = function(chai, utils) {
   Assertion.addProperty('dogs', function() {
     flag(this, 'negate', true)
   })
+  
+  Assertion.addProperty('fucking', function () {
+    return this;
+  });
+
+  Assertion.addProperty('the', function () {
+    return this;
+  });
 }
