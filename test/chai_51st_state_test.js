@@ -10,6 +10,12 @@ describe('chai-51st-state', function() {
 			it('should pass', function() {
 				false.should.be.bollocks
 			})
+
+			context('with emphasis', function() {
+				it('should pass', function() {
+					false.should.be.fucking.bollocks
+				})
+			})
 		})
 
 		context('with a truthy value', function() {
@@ -23,6 +29,12 @@ describe('chai-51st-state', function() {
 		context('with a truthy value', function() {
 			it('should not error', function() {
 				true.should.be.dogs.bollocks
+			})
+
+			context('with emphasis', function() {
+				it('should pass', function() {
+					true.should.be.the.fucking.dogs.bollocks
+				})
 			})
 		});
 
