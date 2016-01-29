@@ -9,8 +9,9 @@ A plugin for chai to allow you to test what is bollocks and what is the dog's bo
 
 ## Use
 ```
-var chai = require('chai')
-var chai51stState = require('chai-51st-state')
+const chai = require('chai')
+const chai51stState = require('chai-51st-state')
+const should = chai.should()
 
 chai.use(chai51stState)
 
