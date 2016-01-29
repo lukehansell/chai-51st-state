@@ -22,3 +22,10 @@ it('does a test', () => {
     true.should.be.the.dogs.fucking.bollocks
 })
 ```
+
+## CHANGELOG
+### v1.0.1
+Initial release
+
+### v1.1.0
+Adding emphasis
