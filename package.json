@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lukehansell/chai-51st-state.git"
+  },
   "keywords": [
     "chai",
     "chai-plugin",
